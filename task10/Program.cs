@@ -6,9 +6,9 @@
 
 Console.WriteLine("Введите трехзначное число:");
 int number = Math.Abs(Convert.ToInt32(Console.ReadLine()));
-if (number<1000 & number>99)
+if (number < 1000 & number > 99)
 {
-    int result= number % 100;
-    int result2 = result/10;
+    int result = number % 100;
+    int result2 = result / 10;
     Console.WriteLine(result2);
 }
