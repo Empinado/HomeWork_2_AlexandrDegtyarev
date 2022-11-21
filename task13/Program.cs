@@ -8,12 +8,12 @@
 
 Console.WriteLine("Введите число:");
 int number = Math.Abs(Convert.ToInt32(Console.ReadLine()));
-if(number>=100)
+if (number >= 100)
 {
-string str1 = number.ToString();
-Console.WriteLine(str1[2]);
+    string str1 = number.ToString();
+    Console.WriteLine(str1[2]);
 }
-else 
+else
 {
     Console.WriteLine("третьей цифры нет");
 }
